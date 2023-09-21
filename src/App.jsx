@@ -35,8 +35,7 @@ function App() {
           <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center hover:bg-[#3D799E] "><a className="text-white text-lg font-bold font-['Roboto'] flex align-items justify-center pt-1" href="#">Ver servicios</a></div>
         </section>
 
-        <section className='relative z-20 py-48 px-48 flex items-center gap-5 '>
-
+        <section className=' h-[600px] w-[1200] relative z-20 flex items-center align-items justify-center gap-5 '>
           <div>
             <div className="w-52 h-44 bg-[#3D799E] rounded-2xl grid  place-items-center">
               <div  className="w-48 h-40 rounded-2xl border-2 border-white flex flex-col justify-content-center align-middle ">
