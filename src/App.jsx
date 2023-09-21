@@ -23,7 +23,7 @@ function App() {
                     <li className="px-3 text-white text-lg font-bold font-['Roboto']">Nuestros Productos</li>
                     <li className="px-3 text-white text-lg font-bold font-['Roboto']">Nuestros Servicios</li>
                     <li className="px-3 text-white text-lg font-bold font-['Roboto']">¿Por qué elegirnos?</li>
-                    <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center"><a className="text-white text-lg font-bold font-['Roboto'] flex align-items justify-center pt-1" href="#">Contactanos</a></div>
+                    <div className=" w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center"><a className="text-white text-lg font-bold font-['Roboto'] flex align-items justify-center pt-1" href="#">Contactanos</a></div>
                 </ul>
             </nav>
         </header>
