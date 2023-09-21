@@ -66,7 +66,7 @@ function App() {
             <div className="w-52 h-44 bg-[#3D799E] rounded-2xl grid  place-items-center">
               <div  className="w-48 h-40 rounded-2xl border-2 border-white flex flex-col">
                 <BsTag className='w-20 h-14 text-white text-8xl'/>
-                <div className="w-52 h-9 text-center text-white text-xl font-medium font-['Roboto']">Somos profesionales</div>
+                <div className="w-52 h-9 text-center text-white text-xl font-medium font-['Roboto'] ">Somos profesionales</div>
               </div>
             </div>
           </div>
