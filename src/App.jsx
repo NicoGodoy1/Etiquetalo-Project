@@ -88,7 +88,7 @@ function App() {
         </section>
 
         <div className='absolute top-0 bottom-0 h-full w-full z-10'>
-          <img src={background} className="object-center" alt="Vite logo" />
+          <img src={background} className="absolute top-0 bottom-0 h-full w-full z-10" alt="Vite logo" />
         </div>
     </div>
   )
