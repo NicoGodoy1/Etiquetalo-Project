@@ -9,6 +9,8 @@ import {BsTag} from 'react-icons/bs'
 import {BiSupport} from 'react-icons/bi'
 import {BsWhatsapp} from 'react-icons/bs'
 import {FaWhatsapp} from 'react-icons/fa6'
+import logoS from './assets/logoSVG.png'
+
 
 
 
@@ -18,8 +20,11 @@ function App() {
       <div className='w-full'>
         <header className='relative z-20'>
             <nav className='flex items-center justify-between py-6 px-10'>
-                <div className='mix-blend-color-dodge'>
-                    <img  className='w-48 h-24' src={logo} alt="logo de etiquetalo " />
+                <div className='logo'>
+                    {/* <img  className='w-48 h-24 ' src={logo} alt="logo de etiquetalo " /> */}
+                    <img  className='w-48 h-24 ' src={logoS} alt="logo de etiquetalo " />
+
+
                 </div>
                 <ul className='flex justify-center px-6 gap-4'>
                     <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">Nuestros Productos</li>
@@ -31,8 +36,8 @@ function App() {
         </header>
 
         <section className='relative z-20 mb-[50px] mt-[100px] ps-[220px]'>
-          <h1 className=" leading-tight h-[250px] w-[600px] text-gray-200 text-8xl font-bold font-['Roboto', 'sans_serif']">Etiquetas<br />a medida</h1>
-          <p className=" mb-6 w-473 leading-tight text-white text-lg font-normal font-['Roboto', 'sans_serif']">La etiqueta perfecta para cada producto. Explora nuestras <br /> etiquetas impresas a medida y destaca en el mercado.</p>
+          <h1 className=" leading-[100px] h-[250px] w-[600px] text-gray-200 text-8xl font-bold font-['Roboto', 'sans_serif']">Etiquetas<br />a medida</h1>
+          <p className=" mb-10 w-473 leading-tight text-white text-lg font-normal font-['Roboto', 'sans_serif']">La etiqueta perfecta para cada producto. Explora nuestras <br /> etiquetas impresas a medida y destaca en el mercado.</p>
           <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center hover:bg-[#3D799E] "><a className="text-white text-lg font-bold font-['Roboto', 'sans_serif'] flex align-items justify-center pt-1" href="#">Ver servicios</a></div>
         </section>
 
