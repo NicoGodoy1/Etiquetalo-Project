@@ -8,6 +8,7 @@ import logo from './assets/logo-etiquetalo.png'
 import {BsTag} from 'react-icons/bs'
 import {BiSupport} from 'react-icons/bi'
 import {BsWhatsapp} from 'react-icons/bs'
+import {FaWhatsapp} from 'react-icons/fa6'
 
 
 
@@ -21,21 +22,21 @@ function App() {
                     <img  className='w-48 h-24' src={logo} alt="logo de etiquetalo " />
                 </div>
                 <ul className='flex justify-center px-6 gap-4'>
-                    <li className="px-3 text-white text-lg font-bold font-['Roboto']">Nuestros Productos</li>
-                    <li className="px-3 text-white text-lg font-bold font-['Roboto']">Nuestros Servicios</li>
-                    <li className="px-3 text-white text-lg font-bold font-['Roboto']">¿Por qué elegirnos?</li>
-                    <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center"><a className="text-white text-lg font-bold font-['Roboto'] flex align-items justify-center pt-1" href="#">Contactanos</a></div>
+                    <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">Nuestros Productos</li>
+                    <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">Nuestros Servicios</li>
+                    <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">¿Por qué elegirnos?</li>
+                    <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center"><a className="text-white text-lg font-bold font-['Roboto', 'sans_serif'] flex align-items justify-center pt-1" href="#">Contactanos</a></div>
                 </ul>
             </nav>
         </header>
 
-        <section className='relative z-20 h-272 w-535 mx-28 mt-28'>
-          <h1 className=" leading-normal  text-gray-200 text-8xl font-extrabold font-['Roboto']">Etiquetas a medida</h1>
-          <p className=" pb-5 w-473 leading-tight text-white text-lg font-normal font-['Roboto']">La etiqueta perfecta para cada producto. Explora nuestras <br /> etiquetas impresas a medida y destaca en el mercado.</p>
-          <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center hover:bg-[#3D799E] "><a className="text-white text-lg font-bold font-['Roboto'] flex align-items justify-center pt-1" href="#">Ver servicios</a></div>
+        <section className='relative z-20 mb-[50px] mt-[100px] ps-[220px]'>
+          <h1 className=" leading-tight h-[250px] w-[600px] text-gray-200 text-8xl font-bold font-['Roboto', 'sans_serif']">Etiquetas<br />a medida</h1>
+          <p className=" mb-6 w-473 leading-tight text-white text-lg font-normal font-['Roboto', 'sans_serif']">La etiqueta perfecta para cada producto. Explora nuestras <br /> etiquetas impresas a medida y destaca en el mercado.</p>
+          <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center hover:bg-[#3D799E] "><a className="text-white text-lg font-bold font-['Roboto', 'sans_serif'] flex align-items justify-center pt-1" href="#">Ver servicios</a></div>
         </section>
 
-        <section className=' h-[600px] w-[1200] relative z-20 flex items-center align-items justify-center gap-5 '>
+        <section className=' h-[350px] w-[1200] relative z-20 flex items-center align-items justify-center gap-5 '>
           <div>
             <div className="w-52 h-44 bg-[#3D799E] rounded-2xl grid  place-items-center">
               <div  className="w-48 h-40 rounded-2xl border-2 border-white flex flex-col justify-content-center align-middle ">
@@ -83,7 +84,7 @@ function App() {
         </section>
 
         <section className=' z-20 fixed bottom-[40px] right-[40px]'>
-          <BsWhatsapp className='bg-[#25D366]  w-[50px] h-[50px] text-white text-3xl rounded-full hover:w-[150px] hover:ease-in hover:duration-300 '/>
+          <FaWhatsapp className='bg-[#25D366]  w-[50px] h-[50px] text-white text-3xl rounded-full hover:w-[95px] hover:ease-in hover:duration-300 '/>
         </section>
 
         <div className='absolute top-0 bottom-0 h-full w-full z-10'>
