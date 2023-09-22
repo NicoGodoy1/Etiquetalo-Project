@@ -1,13 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import background from './assets/home-background.jpg'
 import { navbar } from './components/navbar/navbar'
-import logo from './assets/logo-etiquetalo.png'
 import {BsTag} from 'react-icons/bs'
 import {BiSupport} from 'react-icons/bi'
-import {BsWhatsapp} from 'react-icons/bs'
 import {FaWhatsapp} from 'react-icons/fa6'
 import logoS from './assets/logoSVG.png'
 
@@ -30,7 +25,7 @@ function App() {
                     <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">Nuestros Productos</li>
                     <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">Nuestros Servicios</li>
                     <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">¿Por qué elegirnos?</li>
-                    <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center"><a className="text-white text-lg font-bold font-['Roboto', 'sans_serif'] flex align-items justify-center pt-1" href="#">Contactanos</a></div>
+                    <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center hover:bg-[#3D799E]"><a className="text-white text-lg font-bold font-['Roboto', 'sans_serif'] flex align-items justify-center pt-1" href="#">Contactanos</a></div>
                 </ul>
             </nav>
         </header>
@@ -79,7 +74,7 @@ function App() {
           </div>
 
           <div>
-            <div className="w-52 h-44 bg-[#3D799E] rounded-2xl grid  place-items-center">
+            <div className="w-52 h-44 bg-[#3D799E] rounded-2xl grid place-items-center">
               <div  className="w-48 h-40 rounded-2xl border-2 border-white flex flex-col">
                 <BiSupport className='mx-14 my-2 w-20 h-20 text-white '/>
                 <div className="w-[150] h-9 text-center text-white text-xl font-medium font-['Roboto', 'sans_serif'] ">Atentos a <br />tus consultas</div>
