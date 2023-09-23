@@ -4,6 +4,7 @@ import { navbar } from './components/navbar/navbar'
 import {BsTag} from 'react-icons/bs'
 import {BiSupport} from 'react-icons/bi'
 import {FaWhatsapp} from 'react-icons/fa6'
+import {AiOutlineWhatsApp} from 'react-icons/ai'
 import logoS from './assets/logoSVG.png'
 
 
@@ -83,8 +84,14 @@ function App() {
           </div>
         </section>
 
-        <section className=' z-20 fixed bottom-[40px] right-[40px]'>
-          <FaWhatsapp className='bg-[#25D366]  w-[50px] h-[50px] text-white text-3xl rounded-full hover:w-[95px] hover:ease-in hover:duration-300 '/>
+        {/* <section className=' z-20 fixed bottom-[60px] right-[40px]'>
+          <FaWhatsapp className=' bg-[#25D366] w-[50px] h-[50px] text-white text-3xl rounded-full hover:w-[95px] hover:ease-in hover:duration-300 '/>
+        </section> */}
+
+        <section className='grid place-items-center bg-[#25D366] w-[50px] h-[50px] z-20 fixed bottom-[30px] right-[40px] rounded-full hover:w-[100px] hover:ease-in-out hover:duration-300'>
+          <div className='grid place-items-center align-items-center w-[50px] h-[50px] text-white rounded-full'>
+            <AiOutlineWhatsApp className='p-2 text-white text-[50px]'/>
+          </div>
         </section>
 
         <div className='absolute top-0 bottom-0 h-full w-full z-10'>
