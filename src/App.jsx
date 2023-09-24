@@ -13,7 +13,7 @@ import Manos from './assets/handshake_icono.svg'
 import HoldingHeart from './assets/hands_holding_heart_icono.svg'
 import HandShake from './assets/handshake_icon.png'
 
-import { Navbar } from './components/navbar/navbar'
+import { Navbar } from './components/NavBar/NavBar'
 import { HomeCard } from './components/homeCard/homeCard'
 import { HomeButton } from './components/HomeButton/HomeButton'
 
