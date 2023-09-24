@@ -15,10 +15,13 @@ import HandShake from './assets/handshake_icon.png';
 import { Navbar } from './components/NavBar/NavBar';
 import { HomeCard } from './components/homeCard/homeCard';
 import { HomeButton } from './components/HomeButton/HomeButton';
+import Section from './components/Sections/Section'
+import ScrollButton from './components/Scroll/ScrollButton';
 
 function App() {
   return (
     <div className="w-full">
+      <ScrollButton/>
       <header className="relative z-30 h-[100px] w-full mt-0">
         <Navbar />
       </header>
@@ -31,7 +34,7 @@ function App() {
 
         <p className=" mb-10 w-473 leading-tight text-white text-lg font-normal font-['Roboto', 'sans_serif']">
           La etiqueta perfecta para cada producto. Explora nuestras <br />
-          etiquetas impresas a medida y destaca en el mercado...
+          etiquetas impresas a medida y destaca en el mercado.
         </p>
 
         <HomeButton titulo={'Ver servicios'} />
@@ -60,6 +63,7 @@ function App() {
           alt="Vite logo"
         />
       </div>
+      <Section/>
     </div>
   );
 }
