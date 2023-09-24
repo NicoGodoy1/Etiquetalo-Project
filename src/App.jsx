@@ -14,10 +14,14 @@ import Manos from './assets/handshake_icono.svg'
 
 function App() {
 
+  
+
+
+
   return (
       <div className='w-full'>
-        <header className='relative z-20'>
-            <nav className='flex items-center justify-between py-6 px-10'>
+        <header className='relative z-30 h-[100px] w-full mt-0'>
+            <nav className='flex items-center justify-between py-6 px-10 mb-10'>
                 <div className='logo'>
                     <img  className='w-48 h-24 ' src={logoS} alt="logo de etiquetalo " />
                 </div>
@@ -30,7 +34,7 @@ function App() {
             </nav>
         </header>
 
-        <section className='relative z-20 mb-[50px] mt-[100px] ps-[220px]'>
+        <section className='relative z-20 mb-[50px] mt-[150px] ps-[220px]'>
           <h1 className=" leading-[100px] h-[250px] w-[600px] text-gray-200 text-8xl font-bold font-['Roboto', 'sans_serif']">Etiquetas<br />a medida</h1>
           <p className=" mb-10 w-473 leading-tight text-white text-lg font-normal font-['Roboto', 'sans_serif']">La etiqueta perfecta para cada producto. Explora nuestras <br /> etiquetas impresas a medida y destaca en el mercado.</p>
           <div className="w-40 h-10 rounded-full border-2 border-blue-400 flex align-items justify-center hover:bg-[#3D799E] "><a className="text-white text-lg font-bold font-['Roboto', 'sans_serif'] flex align-items justify-center pt-1" href="#">Ver servicios</a></div>
@@ -89,7 +93,7 @@ function App() {
             </div>
           </div>
         </section>
-        
+
         <section className='grid place-items-center bg-[#25D366] w-[50px] h-[50px] z-20 fixed bottom-[30px] right-[40px] rounded-full hover:w-[100px] hover:ease-in-out hover:duration-300'>
           <div className='grid place-items-center align-items-center w-[50px] h-[50px] text-white rounded-full'>
             <AiOutlineWhatsApp className='p-2 text-white text-[50px]'/>
